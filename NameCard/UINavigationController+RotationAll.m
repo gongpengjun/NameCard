@@ -12,7 +12,10 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    return UIInterfaceOrientationMaskAll;
+    if([[NSUserDefaults standardUserDefaults] boolForKey:@"landscape_only_preference"])
+        return UIInterfaceOrientationMaskLandscape;
+    else
+        return UIInterfaceOrientationMaskAll;
 }
 
 @end
