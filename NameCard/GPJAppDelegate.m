@@ -12,7 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSDictionary *appDefaults = @{@"pinyin_preference":@"Bei Jing Lu Xi You Xun Ke Ji You Xian Gong Si",
+                                  @"name_preference":@"北京路玺优讯科技有限公司"};
+    [[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
+    
     application.idleTimerDisabled = YES;
     return YES;
 }

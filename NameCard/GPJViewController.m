@@ -9,15 +9,39 @@
 #import "GPJViewController.h"
 
 @interface GPJViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *pinyinLabel;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @end
 
 @implementation GPJViewController
 
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateUI) name:NSUserDefaultsDidChangeNotification object:nil];
+    [self updateUI];
+}
+
+- (void)updateUI
+{
+    NSString* name = [[NSUserDefaults standardUserDefaults] stringForKey:@"name_preference"];
+    NSString* pinyin = [[NSUserDefaults standardUserDefaults] stringForKey:@"pinyin_preference"];;
+    //NSLog(@"%s,%d name: [%@] length:%d",__FUNCTION__,__LINE__,name,name.length);
+    //NSLog(@"%s,%d pinyin: [%@] length:%d",__FUNCTION__,__LINE__,pinyin,pinyin.length);
+    //if(name.length)
+    {
+        self.nameLabel.text = name;
+    }
+    
+    //if(pinyin.length)
+    {
+        self.pinyinLabel.text = pinyin;
+    }
 }
 
 - (void)didReceiveMemoryWarning

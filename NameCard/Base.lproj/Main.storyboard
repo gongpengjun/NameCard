@@ -43,6 +43,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="发票抬头" id="aI3-S9-uKu"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="lap-x2-A8w" id="2g3-jw-TkR"/>
+                        <outlet property="pinyinLabel" destination="rRr-lf-UpC" id="GUW-br-RSc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
