@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4840A1E185597540062324C /* UINavigationController+RotationAll.m in Sources */ = {isa = PBXBuildFile; fileRef = C4840A1D185597540062324C /* UINavigationController+RotationAll.m */; };
 		C49A45BD18544D1800613503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49A45BC18544D1800613503 /* Foundation.framework */; };
 		C49A45BF18544D1800613503 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49A45BE18544D1800613503 /* CoreGraphics.framework */; };
 		C49A45C118544D1800613503 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49A45C018544D1800613503 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4840A1C185597540062324C /* UINavigationController+RotationAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+RotationAll.h"; sourceTree = "<group>"; };
+		C4840A1D185597540062324C /* UINavigationController+RotationAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+RotationAll.m"; sourceTree = "<group>"; };
 		C49A45B918544D1800613503 /* NameCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49A45BC18544D1800613503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C49A45BE18544D1800613503 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				C49A45CE18544D1800613503 /* Main.storyboard */,
 				C49A45D118544D1800613503 /* GPJViewController.h */,
 				C49A45D218544D1800613503 /* GPJViewController.m */,
+				C4840A1C185597540062324C /* UINavigationController+RotationAll.h */,
+				C4840A1D185597540062324C /* UINavigationController+RotationAll.m */,
 				C49A45D418544D1800613503 /* Images.xcassets */,
 				C49A45C318544D1800613503 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C49A45CD18544D1800613503 /* GPJAppDelegate.m in Sources */,
+				C4840A1E185597540062324C /* UINavigationController+RotationAll.m in Sources */,
 				C49A45D318544D1800613503 /* GPJViewController.m in Sources */,
 				C49A45C918544D1800613503 /* main.m in Sources */,
 			);
@@ -461,6 +467,7 @@
 				C49A45ED18544D1900613503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C49A45EE18544D1900613503 /* Build configuration list for PBXNativeTarget "NameCardTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				C49A45F018544D1900613503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
