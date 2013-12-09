@@ -37,6 +37,8 @@
 /* Begin PBXFileReference section */
 		C4840A1C185597540062324C /* UINavigationController+RotationAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+RotationAll.h"; sourceTree = "<group>"; };
 		C4840A1D185597540062324C /* UINavigationController+RotationAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+RotationAll.m"; sourceTree = "<group>"; };
+		C4840A1F1855A08D0062324C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C497932C1855A1FD0093707B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C49A45B918544D1800613503 /* NameCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49A45BC18544D1800613503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C49A45BE18544D1800613503 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +56,6 @@
 		C49A45DA18544D1900613503 /* NameCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NameCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49A45DB18544D1900613503 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C49A45E318544D1900613503 /* NameCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NameCardTests-Info.plist"; sourceTree = "<group>"; };
-		C49A45E518544D1900613503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C49A45E718544D1900613503 /* NameCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameCardTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,6 +218,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C49A45B018544D1800613503;
 			productRefGroup = C49A45BA18544D1800613503 /* Products */;
@@ -285,6 +287,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C49A45C618544D1800613503 /* en */,
+				C4840A1F1855A08D0062324C /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -300,7 +303,7 @@
 		C49A45E418544D1900613503 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C49A45E518544D1900613503 /* en */,
+				C497932C1855A1FD0093707B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
