@@ -27,6 +27,11 @@
     [self updateUI];
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 - (void)updateUI
 {
     NSString* name = [[NSUserDefaults standardUserDefaults] stringForKey:@"name_preference"];
