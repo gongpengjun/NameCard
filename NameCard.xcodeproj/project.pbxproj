@@ -210,7 +210,7 @@
 				ORGANIZATIONNAME = www.GongPengjun.com;
 				TargetAttributes = {
 					C49A45B818544D1800613503 = {
-						DevelopmentTeam = 8L7M2D53RQ;
+						DevelopmentTeam = 2E728EA35C;
 					};
 					C49A45D918544D1900613503 = {
 						TestTargetID = C49A45B818544D1800613503;
@@ -403,7 +403,7 @@
 				GCC_PREFIX_HEADER = "NameCard/NameCard-Prefix.pch";
 				INFOPLIST_FILE = "NameCard/NameCard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E3069BDC-1E23-4A8B-85D0-1758D2466D2A";
+				PROVISIONING_PROFILE = "EC10295B-C729-4F19-8100-3281A951E761";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,7 +419,7 @@
 				GCC_PREFIX_HEADER = "NameCard/NameCard-Prefix.pch";
 				INFOPLIST_FILE = "NameCard/NameCard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E3069BDC-1E23-4A8B-85D0-1758D2466D2A";
+				PROVISIONING_PROFILE = "EC10295B-C729-4F19-8100-3281A951E761";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
