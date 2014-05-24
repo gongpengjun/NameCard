@@ -49,11 +49,24 @@
     }
 }
 
+- (IBAction)aboutButtonAction:(id)sender
+{
+    UIAlertView *alertView =
+    [[UIAlertView alloc] initWithTitle:@"发票抬头"
+                               message:@"本应用是为经常开发票的人士开发的。"
+     "开发票时，拿出iPhone，打开\"发票抬头\"，递给服务员即可，可以免去不断书写公司名称的麻烦。"
+     "另外，本应用打开时会禁止屏幕变暗，方便服务员操作。"
+                              delegate:nil
+                     cancelButtonTitle:@"知道了"
+                     otherButtonTitles:nil];
+    [alertView show];
+}
+
 - (IBAction)settingButtonAction:(id)sender
 {
     UIAlertView *alertView =
     [[UIAlertView alloc] initWithTitle:@"提示"
-                               message:@"iPhone\"桌面\"->\"设置\"->\"发票抬头\"进行设置"
+                               message:@"请在iPhone\"桌面\"->\"设置\"->\"发票抬头\"中设置公司名称和相应的拼音"
                               delegate:nil
                      cancelButtonTitle:@"知道了"
                      otherButtonTitles:nil];

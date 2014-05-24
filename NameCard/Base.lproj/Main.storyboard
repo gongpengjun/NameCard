@@ -43,6 +43,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="发票抬头" id="9uP-Kj-eXu">
+                        <barButtonItem key="leftBarButtonItem" title="关于" style="plain" id="Hdm-Pj-Rai">
+                            <connections>
+                                <action selector="aboutButtonAction:" destination="vXZ-lx-hvc" id="HY3-Jr-dkJ"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="设置" style="plain" id="JqM-Jk-o9k">
                             <connections>
                                 <action selector="settingButtonAction:" destination="vXZ-lx-hvc" id="xmS-7K-Sme"/>
