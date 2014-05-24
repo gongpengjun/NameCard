@@ -12,8 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSDictionary *appDefaults = @{@"pinyin_preference":@"Bei Jing Lu Xi You Xun Ke Ji You Xian Gong Si",
-                                  @"name_preference":@"北京路玺优讯科技有限公司"};
+    NSDictionary *appDefaults = @{@"pinyin_preference":@"GONG SI MING CHENG",
+                                  @"name_preference":@"公司名称"};
     [[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
     
     application.idleTimerDisabled = YES;
