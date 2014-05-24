@@ -49,10 +49,15 @@
     }
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)settingButtonAction:(id)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UIAlertView *alertView =
+    [[UIAlertView alloc] initWithTitle:@"提示"
+                               message:@"请打开iPhone桌面的\"设置\"，找到\"发票抬头\"进行配置"
+                              delegate:nil
+                     cancelButtonTitle:@"知道了"
+                     otherButtonTitles:nil];
+    [alertView show];
 }
 
 @end
