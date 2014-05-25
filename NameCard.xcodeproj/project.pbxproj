@@ -400,7 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NameCard/NameCard-Prefix.pch";
 				INFOPLIST_FILE = "NameCard/NameCard-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = invoicetitle;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -416,7 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NameCard/NameCard-Prefix.pch";
 				INFOPLIST_FILE = "NameCard/NameCard-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = invoicetitle;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
